@@ -1,9 +1,11 @@
 import logo from './logo.svg';
 import styles from './App.module.css';
+import Navbar from './components/Navbar';
 
 function App() {
   return (
     <div class={styles.App}>
+      <Navbar></Navbar>
       <header class={styles.header}>
         <img src={logo} class={styles.logo} alt="logo" />
         <p>
